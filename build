@@ -1,0 +1,14 @@
+#bash
+rm ../testapp.zip
+zip -r ../testapp.zip ./*
+
+# Assumes you have a PGB auth token stored in a PGB_AUTH_TOKEN environment variable
+
+
+# update existing app
+curl -X PUT -F file=@/Users/rwilloug/dev/testapp.zip https://build.phonegap.com/api/v1/apps/3005293?auth_token=$PGB_AUTH_TOKEN
+
+
+# create new app
+# curl -F file=@/Users/rwilloug/dev/testapp.zip -F "data={ \"create_method\":\"file\" }" https://build.phonegap.com/api/v1/apps?auth_token=rfBy8NbdtnRXy995TSGr
+
