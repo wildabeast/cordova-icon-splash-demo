@@ -8,7 +8,7 @@
     <name>Icon and Splash Demo</name>
     <author href="http://phonegap.com" email="support@phonegap.com">Ryan Willoughby</author>
     
-    <preference name="phonegap-version"           value="cli-8.0.0" />
+    <preference name="phonegap-version"           value="cli-6.5.0" />
     <access origin="*" />
 
 
@@ -75,18 +75,18 @@
 
         <!-- Android Splash -->
 
-        <splash src="res/android/splash/splash-ldpi-portrait.png"       platform="android" density="port-ldpi" />
-        <splash src="res/android/splash/splash-ldpi-landscape.png"      platform="android" density="land-ldpi" />
-        <splash src="res/android/splash/splash-mdpi-portrait.png"       platform="android" density="port-mdpi" />
-        <splash src="res/android/splash/splash-mdpi-landscape.png"      platform="android" density="land-mdpi" />
-        <splash src="res/android/splash/splash-hdpi-portrait.png"       platform="android" density="port-hdpi" />
-        <splash src="res/android/splash/splash-hdpi-landscape.png"      platform="android" density="land-hdpi" />
-        <splash src="res/android/splash/splash-xhdpi-portrait.png"       platform="android" density="port-xhdpi" />
-        <splash src="res/android/splash/splash-xhdpi-landscape.png"      platform="android" density="land-xhdpi" />
-        <splash src="res/android/splash/splash-xxhdpi-portrait.png"       platform="android" density="port-xxhdpi" />
-        <splash src="res/android/splash/splash-xxhdpi-landscape.png"      platform="android" density="land-xxhdpi" />
-        <splash src="res/android/splash/splash-xxxhdpi-portrait.png"       platform="android" density="port-xxxhdpi" />
-        <splash src="res/android/splash/splash-xxxhdpi-landscape.png"      platform="android" density="land-xxxhdpi" />
+        <splash src="res/android/splash/splash-ldpi-portrait.png"       platform="android" qualifier="port-ldpi" />
+        <splash src="res/android/splash/splash-ldpi-landscape.png"      platform="android" qualifier="land-ldpi" />
+        <splash src="res/android/splash/splash-mdpi-portrait.png"       platform="android" qualifier="port-mdpi" />
+        <splash src="res/android/splash/splash-mdpi-landscape.png"      platform="android" qualifier="land-mdpi" />
+        <splash src="res/android/splash/splash-hdpi-portrait.png"       platform="android" qualifier="port-hdpi" />
+        <splash src="res/android/splash/splash-hdpi-landscape.png"      platform="android" qualifier="land-hdpi" />
+        <splash src="res/android/splash/splash-xhdpi-portrait.png"       platform="android" qualifier="port-xhdpi" />
+        <splash src="res/android/splash/splash-xhdpi-landscape.png"      platform="android" qualifier="land-xhdpi" />
+        <splash src="res/android/splash/splash-xxhdpi-portrait.png"       platform="android" qualifier="port-xxhdpi" />
+        <splash src="res/android/splash/splash-xxhdpi-landscape.png"      platform="android" qualifier="land-xxhdpi" />
+        <splash src="res/android/splash/splash-xxxhdpi-portrait.png"       platform="android" qualifier="port-xxxhdpi" />
+        <splash src="res/android/splash/splash-xxxhdpi-landscape.png"      platform="android" qualifier="land-xxxhdpi" />
 
     </platform>
 
